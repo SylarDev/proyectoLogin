@@ -1,0 +1,7 @@
+{%extends 'base.html'%}
+
+{%block contenido%}
+{%if current_user.is_authenticated%}
+    <p>Ya estas logueado en el sistema.</p>
+{%endif%}
+{%endblock%}
